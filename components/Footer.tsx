@@ -16,27 +16,21 @@ const Footer: React.FC = () => {
               <div className="h-10 w-10 border-2 border-gold flex items-center justify-center rotate-45">
                 <span className="text-gold font-black text-xl -rotate-45">V</span>
               </div>
-              <span className="text-2xl font-black tracking-tighter uppercase italic">Vapor<span className="text-gold">Vibe</span></span>
+              <span className="text-2xl font-black tracking-tighter uppercase italic">ENB<span className="text-gold">VAPES</span></span>
             </div>
             <p className="text-neutral-500 font-medium leading-loose text-sm italic">
               "Excellence is not an act, but a habit. We redefine the vaping landscape through unyielding commitment to premium craftsmanship."
             </p>
-            <div className="flex space-x-6">
-              {['instagram', 'twitter', 'facebook-f', 'linkedin-in'].map((icon) => (
-                <a key={icon} href="#" className="text-neutral-500 hover:text-gold transition-colors text-xl">
-                  <i className={`fab fa-${icon}`}></i>
-                </a>
-              ))}
-            </div>
+            {/* Social icons removed as requested */}
           </div>
 
           {/* Catalog Index */}
           <div>
             <h4 className="text-[11px] font-black uppercase tracking-[0.4em] mb-12 text-gold">The Catalog</h4>
             <ul className="space-y-6">
-              {['Pro Mods', 'Pod Collection', 'Liquid Gallery', 'Limited Kits', 'Accessories'].map(link => (
+              {['Disposables', 'Rolling Paper', 'Accessories'].map(link => (
                 <li key={link}>
-                  <a href="#" className="text-neutral-400 hover:text-white transition-all font-bold text-xs uppercase tracking-widest flex items-center group">
+                  <a href={`#/shop?cat=${encodeURIComponent(link)}`} className="text-neutral-400 hover:text-white transition-all font-bold text-xs uppercase tracking-widest flex items-center group">
                     <span className="w-0 group-hover:w-4 h-px bg-gold mr-0 group-hover:mr-3 transition-all"></span>
                     {link}
                   </a>
@@ -82,7 +76,7 @@ const Footer: React.FC = () => {
         {/* Closing Bar */}
         <div className="pt-16 flex flex-col md:flex-row justify-between items-center gap-10">
           <div className="flex flex-col md:flex-row items-center gap-6 text-[10px] font-black text-neutral-600 uppercase tracking-[0.3em]">
-            <span>&copy; 2024 VAPORVIBE ELITE LTD</span>
+            <span>&copy; 2024 ENBVAPES ELITE LTD</span>
             <span className="hidden md:inline text-gold opacity-30">•</span>
             <a href="#" className="hover:text-white transition-colors">SECURITY Protocol</a>
             <span className="hidden md:inline text-gold opacity-30">•</span>

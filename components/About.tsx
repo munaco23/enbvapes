@@ -7,7 +7,7 @@ const About: React.FC = () => {
         <div className="relative order-2 lg:order-1">
           <div className="overflow-hidden">
             <img
-              src="/images/about/about.png"
+              src="images/about/about.png"
               alt="ENBVAPES Craft Flavors"
               className="w-full h-[420px] object-cover"
             />

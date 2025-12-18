@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
     <header className="fixed top-0 left-0 right-0 z-50">
       {/* Dynamic Top Bar */}
       {isHome && !isScrolled && (
-        <div className="bg-obsidian text-white text-[11px] font-bold text-center py-2 uppercase tracking-[0.3em] hidden md:block border-b border-white/5">
+        <div className="bg-obsidian text-white text-[11px] font-bold text-center py-2 uppercase tracking-[0.3em] hidden md:block">
           Elite Hardware • Worldwide Shipping • Genuine Quality
         </div>
       )}
@@ -42,13 +42,13 @@ const Navbar: React.FC = () => {
         className={`transition-all duration-500 px-6 lg:px-16 flex items-center justify-between ${
           isTransparent
             ? 'bg-transparent py-6'
-            : 'bg-black/90 backdrop-blur-sm shadow-none lg:shadow-2xl py-4 border-b border-white/10'
+            : 'bg-black/90 backdrop-blur-sm shadow-none py-4'
         }`}
       >
         {/* Logo Section */}
         <a href="#/" className="flex items-center space-x-4 cursor-pointer group">
           <img
-            src="/images/logo/logo.png"
+            src="images/logo/logo.png"
             alt="ENBVAPES Logo"
             className="h-12 w-12 object-contain"
           />
@@ -61,10 +61,10 @@ const Navbar: React.FC = () => {
         {/* Right Side Controls & Desktop Links */}
         <div className="flex items-center space-x-12">
           <div className="hidden lg:flex items-center space-x-12 uppercase text-[11px] font-bold tracking-[0.2em]">
-            {['Devices', 'E-Juice', 'Disposables', 'Accessories'].map((item) => (
+            {['Disposables', 'Rolling Paper', 'Accessories'].map((item) => (
               <a 
                 key={item} 
-                href="#/shop" 
+                href={`#/shop?cat=${encodeURIComponent(item)}`}
                 className="text-white hover:text-gold transition-all relative overflow-hidden group"
               >
                 {item}
@@ -102,12 +102,16 @@ const Navbar: React.FC = () => {
           </button>
           <div className="flex flex-col items-center space-y-6 uppercase font-black text-2xl tracking-[0.2em] text-white">
             <a href="#/shop" onClick={() => setIsMobileMenuOpen(false)}>Shop</a>
-            <a href="#/shop" onClick={() => setIsMobileMenuOpen(false)}>Devices</a>
-            <a href="#/shop" onClick={() => setIsMobileMenuOpen(false)}>E-Juice</a>
-            <a href="#/shop" onClick={() => setIsMobileMenuOpen(false)}>Disposables</a>
-            <a href="#/shop" className="text-gold" onClick={() => setIsMobileMenuOpen(false)}>Shop</a>
+            {['Disposables', 'Rolling Paper', 'Accessories'].map((item) => (
+              <a
+                key={`m-${item}`}
+                href={`#/shop?cat=${encodeURIComponent(item)}`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {item}
+              </a>
+            ))}
           </div>
-          <button className="bg-gold text-obsidian px-12 py-4 rounded-full font-black text-sm uppercase tracking-widest">Sign In</button>
         </div>
       )}
           <CartSidebar isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />

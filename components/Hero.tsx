@@ -4,12 +4,21 @@ import { HERO_SLIDES } from '../constants';
 
 const Hero: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isDesktop, setIsDesktop] = useState<boolean>(
+    typeof window !== 'undefined' ? window.innerWidth >= 1024 : true
+  );
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
     }, 8000);
     return () => clearInterval(timer);
+  }, []);
+
+  useEffect(() => {
+    const onResize = () => setIsDesktop(window.innerWidth >= 1024);
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
   }, []);
 
   return (
@@ -27,7 +36,9 @@ const Hero: React.FC = () => {
             className="absolute inset-0 bg-center bg-no-repeat"
             style={{ 
               backgroundImage: `url(${slide.image})`,
-              backgroundSize: '100% auto'
+              // Smooth zoom only on desktop
+              backgroundSize: isDesktop && index === currentSlide ? '110% auto' : '100% auto',
+              transition: isDesktop ? 'background-size 8000ms ease-out' : 'none'
             }}
           >
           </div>

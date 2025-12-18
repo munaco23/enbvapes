@@ -64,7 +64,7 @@ const ProductPage: React.FC = () => {
 
   const gallery = product.images && product.images.length > 0 ? product.images : (product.image ? [product.image] : []);
   const primary = gallery[activeImageIndex] || '';
-  const waNumber = '923107158348'; // 03107158348 in international format
+  const waNumber = '447933008985'; // +1 319 206 0867 in international format
   const waText = encodeURIComponent(`Hi! I'm interested in this product: ${product.name}. Can you share details/price?`);
   const waUrl = `https://wa.me/${waNumber}?text=${waText}`;
 
@@ -103,7 +103,7 @@ const ProductPage: React.FC = () => {
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-black uppercase tracking-[0.25em] text-[10px]"
             >
               <i className="fab fa-whatsapp text-lg"></i>
-              WhatsApp
+              WhatsApp for order
             </a>
           </div>
           <p className="text-neutral-600 leading-relaxed whitespace-pre-line">{product.description}</p>

@@ -1,5 +1,5 @@
 
-export type Category = 'Devices' | 'Disposables' | 'Accessories' | 'E-Juices';
+export type Category = 'Devices' | 'Disposables' | 'Accessories' | 'E-Juices' | 'Rolling Paper';
 
 export interface Product {
   id: string;

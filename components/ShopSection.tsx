@@ -7,7 +7,7 @@ import ProductModal from './ProductModal';
 import { Product } from '../types';
 
 const ShopSection: React.FC = () => {
-  const [activeCategory, setActiveCategory] = useState<Category>('Devices');
+  const [activeCategory, setActiveCategory] = useState<Category>('Disposables');
   const [products, setProducts] = useState<Product[]>(PRODUCTS);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemsPerView, setItemsPerView] = useState(4);
@@ -15,9 +15,8 @@ const ShopSection: React.FC = () => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   const categories: { label: Category; icon: string }[] = [
-    { label: 'Devices', icon: 'fa-bolt' },
-    { label: 'E-Juices', icon: 'fa-droplet' },
     { label: 'Disposables', icon: 'fa-box' },
+    { label: 'Rolling Paper', icon: 'fa-scroll' },
     { label: 'Accessories', icon: 'fa-wrench' }
   ];
 

@@ -10,21 +10,23 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
 import BestSellers from './components/BestSellers';
-import Newsletter from './components/Newsletter';
+import Shipping from './components/Shipping';
 import QualityInfo from './components/QualityInfo';
 import SafetyTips from './components/SafetyTips';
 
 
 const ValueProposition: React.FC = () => {
   const brands = [
-    '/images/our%20brands/airbar.png',
-    '/images/our%20brands/aura.png',
-    '/images/our%20brands/cali.png',
-    '/images/our%20brands/foger.png',
-    '/images/our%20brands/geek.png',
-    '/images/our%20brands/razz.png',
-    '/images/our%20brands/tyson.png'
+    'images/our%20brands/airbar.png',
+    'images/our%20brands/aura.png',
+    'images/our%20brands/cali.png',
+    'images/our%20brands/foger.png',
+    'images/our%20brands/geek.png',
+    'images/our%20brands/razz.png',
+    'images/our%20brands/tyson.png'
   ];
+
+  const marquee = [...brands, ...brands];
 
   return (
     <section className="py-20 bg-white border-y border-neutral-100">
@@ -35,17 +37,38 @@ const ValueProposition: React.FC = () => {
       </div>
 
       <div className="relative overflow-hidden">
-        {/* Static brands row (auto-scroll removed) */}
-        <div className="flex items-center justify-center flex-wrap gap-10 px-6">
-          {brands.map((src, i) => (
-            <img
-              key={`brand-${i}`}
-              src={src}
-              alt="brand"
-              className="h-16 md:h-20 opacity-60 hover:opacity-100 transition-all duration-300 grayscale hover:grayscale-0 hover:scale-105 object-contain"
-            />
-          ))}
+        <div className="marquee w-full">
+          <div className="marquee-track select-none">
+            <div className="marquee-row flex items-center gap-16 px-6">
+              {brands.map((src, i) => (
+                <img
+                  key={`brand-a-${i}`}
+                  src={src}
+                  alt="brand"
+                  className="h-16 md:h-20 opacity-60 hover:opacity-100 transition-all duration-300 grayscale hover:grayscale-0 hover:scale-105 object-contain"
+                  draggable={false}
+                />
+              ))}
+            </div>
+            <div className="marquee-row flex items-center gap-16 px-6" aria-hidden="true">
+              {brands.map((src, i) => (
+                <img
+                  key={`brand-b-${i}`}
+                  src={src}
+                  alt="brand"
+                  className="h-16 md:h-20 opacity-60 hover:opacity-100 transition-all duration-300 grayscale hover:grayscale-0 hover:scale-105 object-contain"
+                  draggable={false}
+                />
+              ))}
+            </div>
+          </div>
         </div>
+        <style>{`
+          .marquee { overflow: hidden; }
+          .marquee-track { display: flex; width: max-content; will-change: transform; animation: marquee 18s linear infinite; }
+          .marquee-row { width: max-content; }
+          @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+        `}</style>
       </div>
     </section>
   );
@@ -80,6 +103,9 @@ const App: React.FC = () => {
       case '#/shop':
         return <JsonShopPage />;
       default:
+        if (route.startsWith('#/shop')) {
+          return <JsonShopPage />;
+        }
         if (route.startsWith('#/product/')) {
           return <ProductPage />;
         }
@@ -93,7 +119,7 @@ const App: React.FC = () => {
             <Testimonials />
             <QualityInfo />
             <SafetyTips />
-            <Newsletter />
+            <Shipping />
           </>
         );
     }

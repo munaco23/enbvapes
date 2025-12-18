@@ -1,5 +1,65 @@
 [
   {
+    "id": "p15",
+    "name": "Geek Bar Pulse X | 25,000 Puffs Disposable Vape with 3D Curved Screen",
+    "category": "Disposables",
+    "description": "The Geek Bar Pulse X is a high-performance, long-lasting disposable vape designed for users who want a balance of massive puff counts and cutting-edge technology. Featuring the world's first 3D curved screen, this device provides a visually stunning interface that displays your battery life, e-liquid levels, and puffing mode in real-time.\n\nKey Features\nDual Vaping Modes:\n\nRegular Mode: Offers up to 25,000 puffs for maximum longevity and consistent flavor.\n\nPulse Mode: Boosts power for more intense flavor and larger clouds, offering up to 15,000 puffs.\n\n3D Curved Display: A vibrant, wrap-around screen with starry constellation animations and clear digital indicators for battery and juice levels.\n\nAdvanced Dual Mesh Coil: Ensures even heating and prevents burnt hits, maintaining flavor quality from the first puff to the last.\n\nHigh Nicotine Strength: Contains 5% (50mg/mL) nicotine for a smooth yet satisfying throat hit.\n\nFast Charging: Equipped with a rechargeable battery (USB-C) to ensure you can use every drop of e-liquid.\n\nAvailable Flavors Shown\nWatermelon Ice: A refreshing blend of sweet watermelon with a crisp menthol finish.\n\nWild Cherry Slush: A nostalgic, icy treat featuring bold, tart cherry notes.\n\nSour Fucking Fab: A complex, tangy fruit medley for those who love a sour kick.",
+    "images": [
+      "images/products/geek-bar-x/geekbar1.jfif",
+      "images/products/geek-bar-x/geekbar2.jfif",
+      "images/products/geek-bar-x/geekbar3.jfif",
+      "images/products/geek-bar-x/geekbar4.jfif"
+    ],
+    "rating": 4.8,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p16",
+    "name": "Geek Bar Pulse 15,000 | The World’s First Full-Screen Disposable Vape",
+    "category": "Disposables",
+    "description": "The Geek Bar Pulse 15,000 is the groundbreaking original model that introduced the 'Smart Screen' to the vaping world. It is a dual-mode disposable device designed for vapers who want a futuristic look combined with the ability to switch between a long-lasting standard experience and a powerful 'Pulse' boost.\n\nKey Features\nDual-Core & Dual-Mesh Coil: Features two mesh coils that work together to deliver consistent flavor and massive vapor, even when the battery is low.\n\nFull-Screen Display: A vibrant side-screen that clearly shows your Battery Percentage and E-liquid Levels, so you never get a dry hit unexpectedly.\n\nAdjustable Vaping Modes:\n\nRegular Mode (15,000 Puffs): Uses a single coil in an alternating fashion to provide a smooth, long-lasting experience.\n\nPulse Mode (7,500 Puffs): Activates both coils and increases the wattage (up to 20W) for 200% more vapor and enhanced flavor intensity.\n\nSpace Capsule Design: A sleek, transparent exterior inspired by futuristic space technology with cosmic-themed animations on the screen.\n\nBite-Friendly Mouthpiece: A transparent, moderate-hardness shell that improves comfort and hygiene.",
+    "images": [
+      "images/products/geek-bar/geekbar1.png",
+      "images/products/geek-bar/geekbar2.png",
+      "images/products/geek-bar/geekbar3.png"
+    ],
+    "rating": 4.7,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p17",
+    "name": "Geek Bar Cyber Tank | 40,000 Puffs Disposable Vape",
+    "category": "Disposables",
+    "description": "The Geek Bar Cyber Tank is a high-capacity, ruggedized disposable vape designed for ultimate longevity and performance. Inspired by futuristic 'cyber' aesthetics, it features a heavy-duty casing and a massive e-liquid reservoir that delivers up to 40,000 puffs in its most efficient mode. This device is powered by an advanced triple-mesh coil system and a high-performance smart chip, ensuring that flavor quality remains consistent even as the juice level decreases.\n\nKey Features\nMassive Puff Capacity: Delivers up to 40,000 puffs in Eco Mode, making it one of the longest-lasting disposables on the market.\n\nTriple-Mesh Coil Technology: Utilizes three mesh coils to maximize surface area, resulting in richer flavor and denser vapor production compared to standard dual-mesh devices.\n\nDual or Triple Power Modes:\n\nEco Mode: Maximizes longevity for the full 40,000 puff experience.\n\nNormal/Pulse Mode: Increases wattage for a more intense hit, reducing the total puff count but significantly boosting flavor and cloud size.\n\nCyber Smart Screen: A large, clear display that provides real-time monitoring of battery percentage, e-liquid levels, and the currently active vaping mode.\n\nRugged Design: Built with high-durability materials to withstand daily wear and tear, featuring a 'tank-like' aesthetic.",
+    "images": [
+      "images/products/geek-bar-cyber-truck/geekbar-cyber1.JPG",
+      "images/products/geek-bar-cyber-truck/geekbar-cyber2.JPG",
+      "images/products/geek-bar-cyber-truck/geekbar-cyber3.JPG"
+    ],
+    "rating": 4.9,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p18",
+    "name": "Cali UL80,000 | 80,000 Puffs Smart Disposable Vape",
+    "category": "Disposables",
+    "description": "The Cali UL80000 is a sleek and technologically advanced disposable vape pen from Cali Pods, designed to provide an extended and high-quality vaping experience. It features an integrated LED display screen that offers real-time monitoring of both your battery life and e-liquid levels, ensuring you are never caught off guard. Designed for comfort, it includes a soft silicone tip and a slim, portable profile that fits easily in a pocket or bag.\n\nKey Features\nMassive Puff Count: Delivers approximately 8,000 puffs per device.\n\nSmart LED Display: Clearly shows remaining battery percentage and e-liquid levels.\n\nAdvanced Mesh Coil: Uses mesh coil technology to ensure a consistent, smooth, and flavorful draw from the first puff to the last.\n\nComfort Design: Features a unique silicone mouthpiece for added comfort during use.\n\nRechargeable Battery: Equipped with a 600mAh to 650mAh battery that supports convenient Type-C USB fast charging.",
+    "images": [
+      "images/products/cali8000/cali1.jfif",
+      "images/products/cali8000/cali2.jfif",
+      "images/products/cali8000/cali3.jfif",
+      "images/products/cali8000/cali4.jfif",
+      "images/products/cali8000/cali5.jfif",
+      "images/products/cali8000/cali6.jfif"
+    ],
+    "rating": 4.6,
+    "onSale": true,
+    "isNew": true
+  },
+  {
     "id": "p1",
     "name": "RAZ DC15000 Disposable Vape | 15,000 Puffs (Boost) | Mega HD Screen",
     "category": "Disposables",
@@ -49,7 +109,7 @@
   },
   {
     "id": "p4",
-    "name": "RAZ LTX 30,000 Puff Limited Edition Disposable | Mega HD Screen | Dual Power Modes",
+    "name": "Fooger 30,000 Puff Limited Edition Disposable | Mega HD Screen | Dual Power Modes",
     "category": "Disposables",
     "description": "Push the Boundaries of Vaping with the RAZ LTX 30,000 The RAZ LTX 30,000 is the pinnacle of disposable technology, engineered for vapers who never want to run out of flavor. This massive-capacity device combines a sophisticated genuine leather grip with a futuristic Mega HD Screen, providing a premium feel and total control over your vaping experience.\n\nThe Largest HD Screen in the Game\nStay ahead of the curve with a full-color, high-definition interface that does more than just show numbers. The Mega HD Screen features:\n\nDynamic Fire Animations: Visual flames and gears that react to every draw.\n\nReal-Time Monitoring: Keep a precise eye on your remaining E-liquid and Battery Life.\n\nMode Indicators: Easily see if you are in high-power \"Boost\" mode or long-lasting \"Normal\" mode.\n\nAdvanced Performance Features\n30,000 Puff Capacity: Optimized for longevity, providing weeks of use in Normal Mode.\n\nEnhanced Boost Mode: Switch to Boost for intensified flavor and massive vapor production (approx. 18,000 puffs).\n\nPremium Mesh Coil Technology: Dual mesh coils ensure that the last puff tastes as fresh and vibrant as the first.\n\nUSB-C Fast Charging: Minimize downtime with rapid recharging for the integrated 800mAh battery.\n\nSpecifications at a Glance:\nMax Puffs: 30,000 (Normal Mode)\nNicotine Strength: 5% (50mg)\nCharging: Type-C Rechargeable\nFinish: Transparent shell with Genuine Leather accents\nDisplay: Full HD Smart Screen\n\nFeatured Flavors:\nMiami Mint: A chillingly smooth and refreshing mint.\nBangin Sour Berries: A sharp, tangy explosion of mixed berry goodness.\nBlueberry Watermelon: A sweet, juicy fusion of summer favorites.\nWatermelon Ice: Crisp watermelon with a freezing menthol finish.",
     "images": [
@@ -67,7 +127,7 @@
   },
   {
     "id": "p5",
-    "name": "RAZ LTX 30000 Disposable Vape | 30K Puffs | Mega HD Animated Screen | Premium Leather Grip",
+    "name": "tyson 30000 Disposable Vape | 30K Puffs | Mega HD Animated Screen | Premium Leather Grip",
     "category": "Disposables",
     "description": "Experience the Evolution of Vaping: The 30,000 Puff Titan\nStep into the future with the longest-lasting disposable vape on the market. Engineered for those who demand performance, style, and longevity, the RAZ LTX 30000 combines a massive e-liquid reservoir with industry-leading smart technology. Wrapped in a premium genuine leather grip, it offers a luxurious feel that matches its powerful performance.\n\nDual-Mode Performance\nCustomize your hit with a simple toggle:\n\nNormal Mode (30,000 Puffs): Optimized for consistent, smooth flavor and maximum longevity.\n\nBoost Mode (18,000 Puffs): Activates dual mesh coils for intensified flavor and massive vapor production.\n\nMega HD Animated Display\nThe largest screen ever seen on a disposable! This high-definition interface provides more than just data; it provides an experience:\n\nVape Animations: Stunning HD graphics that change while you puff.\n\nJuice & Battery Levels: Never guess your remaining levels again with precise percentage tracking.\n\nCharging Status: Real-time feedback when plugged into a USB-C fast charger.\n\nKey Specifications\nPuff Count: Up to 30,000 Puffs (Normal Mode) / 18,000 Puffs (Boost Mode)\n\nE-Liquid Capacity: Extra-Large Reservoir\n\nNicotine Strength: 5% (50mg)\n\nBattery: 800mAh High-Density Rechargeable\n\nCoil System: Advanced Dual Mesh Coil for superior flavor clarity\n\nCharging: Type-C Fast Charge Port\n\nAvailable Premium Flavors\nBangin Sour Berries: A sharp, tart mix of wild forest berries.\n\nMiami Mint: A crisp, refreshing, and icy spearmint.\n\nBlueberry Watermelon: The perfect balance of sweet summer fruits.\n\nWintergreen: A bold, cool blast of classic wintergreen freshness.",
     "images": [
@@ -83,9 +143,9 @@
   },
   {
     "id": "p6",
-    "name": "RAZ DC25000 Disposable Vape | 15,000 Puffs (Boost Mode) | Mega HD Screen | Genuine Leather Grip",
+    "name": "Tyson 25000 Disposable Vape | 15,000 Puffs (Boost Mode) | Mega HD Screen | Genuine Leather Grip",
     "category": "Disposables",
-    "description": "Unlock Maximum Power with the RAZ DC25000 Boost Edition The RAZ DC25000 is a premium, high-performance disposable vape designed for those who refuse to compromise on flavor intensity. Featuring a luxurious genuine leather wrap and a transparent outer shell, this device offers a sophisticated aesthetic alongside cutting-edge technology.\n\nOptimized for 15,000 Puffs of Pure Flavor\nWhile this device can reach 25,000 puffs in Regular Mode, the Boost Mode is where it truly shines. By switching to Boost (24W), the device activates its enhanced dual-core technology to deliver:\n\nRich Flavor: 15,000 puffs of intensified, bold taste.\n\nDense Vapor: Maximum cloud production for a satisfying hit every time.\n\nAdvanced Mesh Coils: Integrated 1.0Ω mesh coil technology ensures a smooth and consistent draw.\n\nMega HD Smart Screen\nStay informed with the industry-leading 1.77-inch HD display. This interactive screen provides real-time updates and stylish visuals, including:\n\nE-Liquid Level Indicator: Know exactly when your 16mL reservoir is running low.\n\nBattery Life Monitor: Track the 800mAh battery for timely recharging via USB-C.\n\nDynamic Animations: High-quality graphics like fire and gear animations that activate as you vape.\n\nKey Specifications\nPuff Count: 15,000 Puffs (Boost Mode) / 25,000 Puffs (Regular Mode).\n\nNicotine Strength: 5% (50mg) salt nicotine for a perfect throat hit.\n\nModes: One-click toggle between Light and Dark display modes.\n\nAirflow: Stepless adjustable airflow control on the bottom of the device.\n\nBattery: 800mAh rechargeable (USB-C port).\n\nPopular Flavors Shown:\nBangin Sour Berries: A sharp, tangy berry explosion.\n\nMiami Mint: A crisp, tropical-inspired cool mint.\n\nBlueberry Watermelon: A juicy, sweet fruit fusion.",
+    "description": "Unlock Maximum Power with the Tyson 25000 Boost Edition The RAZ DC25000 is a premium, high-performance disposable vape designed for those who refuse to compromise on flavor intensity. Featuring a luxurious genuine leather wrap and a transparent outer shell, this device offers a sophisticated aesthetic alongside cutting-edge technology.\n\nOptimized for 15,000 Puffs of Pure Flavor\nWhile this device can reach 25,000 puffs in Regular Mode, the Boost Mode is where it truly shines. By switching to Boost (24W), the device activates its enhanced dual-core technology to deliver:\n\nRich Flavor: 15,000 puffs of intensified, bold taste.\n\nDense Vapor: Maximum cloud production for a satisfying hit every time.\n\nAdvanced Mesh Coils: Integrated 1.0Ω mesh coil technology ensures a smooth and consistent draw.\n\nMega HD Smart Screen\nStay informed with the industry-leading 1.77-inch HD display. This interactive screen provides real-time updates and stylish visuals, including:\n\nE-Liquid Level Indicator: Know exactly when your 16mL reservoir is running low.\n\nBattery Life Monitor: Track the 800mAh battery for timely recharging via USB-C.\n\nDynamic Animations: High-quality graphics like fire and gear animations that activate as you vape.\n\nKey Specifications\nPuff Count: 15,000 Puffs (Boost Mode) / 25,000 Puffs (Regular Mode).\n\nNicotine Strength: 5% (50mg) salt nicotine for a perfect throat hit.\n\nModes: One-click toggle between Light and Dark display modes.\n\nAirflow: Stepless adjustable airflow control on the bottom of the device.\n\nBattery: 800mAh rechargeable (USB-C port).\n\nPopular Flavors Shown:\nBangin Sour Berries: A sharp, tangy berry explosion.\n\nMiami Mint: A crisp, tropical-inspired cool mint.\n\nBlueberry Watermelon: A juicy, sweet fruit fusion.",
     "images": [
       "images/products/tyson15/tyson1.jpeg",
       "images/products/tyson15/tyson2.jpeg",
@@ -98,7 +158,7 @@
   },
   {
     "id": "p7",
-    "name": "RAZ DC25000 / LTX Edition Disposable Vape (15,000–25,000 Puffs)",
+    "name": "Airbar 5000 / LTX Edition Disposable Vape (15,000–25,000 Puffs)",
     "category": "Disposables",
     "description": "The Ultimate Luxury Vaping Experience: RAZ DC25000 Redefine your vaping journey with the RAZ DC25000, a high-performance disposable that merges cutting-edge technology with premium design. Encased in a genuine leather-wrapped grip and a transparent protective shell, this device feels as good as it performs.\n\nDual Vaping Modes for Precision Control\nToggle between two distinct power settings with a single click to match your mood:\n\nBoost Mode (15,000 Puffs): Operates at 24 watts for intensified flavor and massive vapor clouds.\n\nRegular Mode (25,000 Puffs): Operates at 12 watts for a smoother, consistent draw that lasts for weeks.\n\nIndustry-Leading Mega HD Screen\nStay fully informed with the 1.77-inch Mega HD smart screen, the largest in its class. The vibrant interface includes:\n\nE-Liquid & Battery Indicators: Precise percentage tracking so you never run out unexpectedly.\n\nVaping Animations: Interactive \"Fire\" and \"Gear\" animations that play while you draw.\n\nDisplay Customization: Choose between Light and Dark modes to suit your environment.\n\nKey Performance Features\nAdvanced Mesh Coils: Features temperature-controlled dual-mesh technology for pure flavor and zero burnt hits.\n\nAdjustable Airflow: A stepless airflow control valve on the base allows you to fine-tune your draw from a tight MTL to a loose DTL.\n\nHigh-Capacity Power: Powered by an 800mAh battery with USB-C fast charging.\n\n5% (50mg) Nicotine Strength: Delivers a satisfying, smooth throat hit with every puff.",
     "images": [
@@ -118,7 +178,7 @@
   },
   {
     "id": "p8",
-    "name": "Cali Bars 2K Disposable Vape (2,000 Puffs)",
+    "name": "Cali Bars 20K Disposable Vape (2,000 Puffs)",
     "category": "Disposables",
     "description": "Pure Simplicity with Cali Bars 2K The Cali Bars 2K is a cult favorite known for its sleek, \"stick-style\" design and ultra-reliable performance. Perfect for vapers who want a consistent, pocket-friendly device without the need for charging or complicated screens, it delivers the signature \"California Grown\" flavor experience in a compact form.\n\nReliable Daily Performance\nDesigned for ease of use, the Cali Bars 2K is ready to go right out of the box:\n\n2,000 Puffs: A high-capacity reservoir and optimized battery provide roughly 2,000 smooth hits.\n\nCompact \"Stick\" Design: Slim enough to fit in any pocket or small bag, making it the ideal travel companion.\n\nNo Maintenance Required: No charging ports, no buttons, and no refills—simply vape and dispose of when finished.\n\nKey Features\nPuff Count: Approximately 2,000 Puffs.\n\nE-Liquid Capacity: 5ml of premium nicotine salt.\n\nNicotine Strength: 5% (50mg) for a strong, satisfying hit.\n\nBattery: Integrated pre-charged battery designed to last the full duration of the e-liquid.\n\nCoil: Quality mesh/wire coil for instant vapor production.\n\nBest-Selling Flavors\nBlue Razz: A sweet and tart blue raspberry classic.\n\nWatermelon Ice: Juicy watermelon with a refreshing menthol finish.\n\nStrawberry Ice: Sweet vine-ripened strawberries with a cool exhale.\n\nSweet Mint: A crisp, clean, and icy mint flavor.",
     "images": [
@@ -128,6 +188,136 @@
       "images/products/cali2000/cali4.jpeg"
     ],
     "rating": 4.4,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p9",
+    "name": "RAW Rolling Papers",
+    "category": "Rolling Paper",
+    "description": "Product Overview\nBrand: RAW.\n\nSeries: Classic.\n\nMaterial: Made from natural, unrefined plant fibers.\n\nAppearance: These papers are translucent and light brown because they are unbleached and contain no added chalk or dyes.\n\nSizes Pictured\nThe images display two distinct sizes to accommodate different rolling preferences:\n\nSingle Wide: A standard, cigarette-sized paper ideal for shorter, personal sessions.\n\n1¼ Size: A slightly larger and wider paper (approximately 25% larger than Single Wide), which is the most popular standard for everyday use.\n\nKey Technical Features\nAuthenticity Guaranteed: Each pack features a circular \"Authentic Purest Natural Fibers\" seal, certifying that the product is unrefined.\n\nProprietary Watermark: Although not visible on the packaging, these papers use a patented criss-cross watermark designed to prevent \"runs\" and ensure a slow, even burn.\n\nNatural Adhesive: The papers utilize a natural Acacia gum line for a secure, chemical-free seal.\n\nOrigin: The packaging indicates these are \"Made in Spain,\" the birthplace of modern rolling paper.",
+    "images": [
+      "images/products/raw/raw1.jfif",
+      "images/products/raw/raw2.jfif",
+      "images/products/raw/raw3.jfif",
+      "images/products/raw/raw4.jfif"
+    ],
+    "rating": 4.6,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p10",
+    "name": "RAW Pre-Rolled Paper",
+    "category": "Rolling Paper",
+    "description": "Product Overview\nBrand: RAW.\n\nSeries: Classic.\n\nMaterial: 100% unbleached and unrefined plant fibers, such as flax and hemp.\n\nAppearance: Translucent light brown color, as no chlorine bleach or whitening agents are used in the process.\n\nSpecific Sizes Shown\nBased on the packaging in your photos, two standard sizes are featured:\n\nSingle Wide: Standard cigarette-sized papers (70mm x 37mm).\n\n1¼ Size: The original 'Spanish Size' (76mm x 44mm or 78mm depending on specific regional standard), which holds approximately 25% more than single wide.\n\nKey Technical Features\nPatented Criss-Cross Watermark: Each leaf is watermarked with a grid pattern that helps prevent 'runs' (uneven burning) and ensures a smooth, slow, and consistent burn.\n\nNatural Gum Line: Uses purely natural, organic Acacia gum harvested from Acacia trees.\n\nEco-Friendly Manufacturing: The papers are made in Alcoy, Spain—the birthplace of rolling papers—using an environmentally friendly process.\n\nVegan-Friendly: RAW papers contain no animal products, synthetic additives, chalk, or dyes.\n\nWhy It's Popular\nRAW Classic is designed for connoisseurs who want a 'clean' smoke. Because the paper is unrefined and ultra-thin, it provides a neutral flavor that allows the natural taste of your herbs or tobacco to stand out without the chemical aftertaste found in bleached white papers.",
+    "images": [
+      "images/products/pre-rollled/raw1.jfif",
+      "images/products/pre-rollled/raw2.jfif",
+      "images/products/pre-rollled/raw3.jfif"
+    ],
+    "rating": 4.6,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p11",
+    "name": "RAW Smoking Tip",
+    "category": "Rolling Paper",
+    "description": "Product Varieties Pictured\nThe provided photos highlight different formats for various rolling needs:\n\nRAW Classic Single Wide: A standard, cigarette-sized paper designed for personal use.\n\nRAW Classic 1¼ Size: Often called 'Spanish Size,' this is the most popular standard for everyday rolling, holding roughly 25% more than the Single Wide.\n\nRAW Classic Cones: Pre-rolled translucent papers with a built-in tip, designed for those who prefer to 'fill' rather than 'roll'.\n\nRAW Natural Unrefined Tips: Small booklets of stiff, chlorine-free paper used to create a 'crutch' or filter at the end of a roll for better airflow and stability.\n\nKey Technical Features\nAuthenticity: Every pack features the 'Purest Natural Fibers' circular seal, certifying that the product is authentic and unrefined.\n\nProprietary Watermark: The papers feature a patented Criss-Cross watermark. This grid pattern ensures a slow, even burn and prevents 'runs' from ruining the session.\n\nNatural Adhesive: RAW uses a pure, natural Acacia gum line for a secure and chemical-free seal.\n\nHeritage: The packaging notes that these products are Made in Spain, specifically in Alcoy, which is historically recognized as the birthplace of rolling papers.\n\nEnvironmental & Quality Standards\nThese products are highly regarded by connoisseurs because they are:\n\nVegan-friendly and non-GMO.\n\nFree from added chalk, dyes, or burn-enhancing chemicals.\n\nDesigned to provide a neutral taste that does not interfere with the natural flavor of the material being smoked.",
+    "images": [
+      "images/products/raw-tip/raw1.jfif",
+      "images/products/raw-tip/raw2.jfif",
+      "images/products/raw-tip/raw3.jfif"
+    ],
+    "rating": 4.5,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p12",
+    "name": "Dura cell",
+    "category": "Accessories",
+    "description": "The design is a high-energy, tripartite promotional graphic featuring various vaping devices. It uses a consistent, atmospheric layout across three distinct color-coded panels—Gold, Silver/Greyscale, and Electric Blue—to showcase product versatility and power.\n\nDesign Elements\nTypography & Branding: The logo 'ENBVAPES' is positioned at the top of each panel in a bold, metallic sans-serif font. A stylized 'V' creates a sharp, lightning-bolt effect that integrates with the background electricity.\n\nCentral Imagery: Each section features a pair of devices: a larger, high-performance Box Mod with a digital display and an adjustable tank, paired with a sleek, portable Pod System.\n\nVisual Effects:\n\nLightning & Electricity: Powerful bolts of energy radiate from behind the devices, suggesting high performance and battery power.\n\nAtmospheric Smoke: Wisps of thick vapor surround the base of the devices and fill the background, emphasizing the product's primary function.\n\nReflective Surface: The products are placed on a glossy, wet-look floor that mirrors the light and color of each specific panel.",
+    "images": [
+      "images/products/dura/dura1.jfif",
+      "images/products/dura/dura2.jfif",
+      "images/products/dura/dura3.png"
+    ],
+    "rating": 4.4,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p13",
+    "name": "Premium USB-A to Lightning Charging Cable",
+    "category": "Accessories",
+    "description": "Reliable, fast, and built to last — this premium USB-A to Lightning charging cable is designed for everyday use. Reinforced strain relief and a thick, tangle-resistant jacket protect the inner conductors for long life. Ideal for charging iPhone and iPad devices or syncing data with your computer.\n\nKey Features\n- Fast Charging Support: Optimized copper conductors for consistent power delivery.\n- Durable Build: Reinforced stress points rated for thousands of bends.\n- Tangle-Resistant Jacket: Smooth outer sheath to reduce knots in bags or pockets.\n- Universal USB-A to Lightning: Works with power banks, wall adapters, car chargers, and laptops.\n\nIncluded In Box\n- 1x USB-A to Lightning Cable",
+    "images": [
+      "images/products/usb-to-apple/usb--to-cable.jfif",
+      "images/products/usb-to-apple/usb-to-iphone.png"
+    ],
+    "rating": 4.5,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p14",
+    "name": "Premium USB-C to Lightning Charging Cable",
+    "category": "Accessories",
+    "description": "Reliable, fast, and built to last — this premium USB-C to Lightning charging cable is designed for everyday use. Reinforced strain relief and a thick, tangle-resistant jacket protect the inner conductors for long life. Ideal for charging iPhone and iPad devices from USB‑C power sources or syncing data with your computer.\n\nKey Features\n- Fast Charging Support: Optimized copper conductors for consistent power delivery.\n- Durable Build: Reinforced stress points rated for thousands of bends.\n- Tangle-Resistant Jacket: Smooth outer sheath to reduce knots in bags or pockets.\n- Universal USB‑C to Lightning: Works with USB‑C wall adapters, power banks, car chargers, and laptops.\n\nIncluded In Box\n- 1x USB‑C to Lightning Cable",
+    "images": [
+      "images/products/c-to-lighting/c-to-lighting-cable.jpg"
+    ],
+    "rating": 4.5,
+    "onSale": true,
+    "isNew": true
+  },
+  
+  {
+    "id": "p19",
+    "name": "ELFBAR BC5000 | Rechargeable Disposable Vape (5,000 Puffs)",
+    "category": "Disposables",
+    "description": "The ELFBAR BC5000 is a compact, flagon-shaped disposable vape designed for portability and a high-quality user experience. It is well-known for its dual coil technology, which ensures pure, rich flavors and consistent hits from the first puff to the very last. With its massive 13mL pre-filled e-liquid reservoir and rechargeable battery, it offers a long-lasting vaping session that can last up to two weeks for casual users.\n\nKey Features\nMassive Puff Count: Delivers approximately 5,000 puffs per device.\n\nRechargeable Battery: Features a built-in 650mAh battery that is rechargeable via a USB-C port.\n\nDual Mesh Coil: Utilizes an advanced dual coil system to provide outstanding flavor and vapor production.\n\nCompact Design: Small enough to fit comfortably in your palm or pocket, measuring roughly 79mm x 41mm x 19mm.\n\nDraw-Activated: No buttons are required; simply take a puff to activate the device.\n\nNicotine Strength: Typically contains 5% (50mg/mL) nicotine salts, though 0% and 3% options are also available.",
+    "images": [
+      "images/products/elfbar5000/elfbar1.jfif",
+      
+      "images/products/elfbar5000/elfbar3.jfif",
+      "images/products/elfbar5000/elfbar4.jfif"
+    ],
+    "rating": 4.6,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p20",
+    "name": "Hayati Pro Max 4000 | Premium Crystal Disposable Vape",
+    "category": "Disposables",
+    "description": "The Hayati Pro Max 4000 is a sophisticated, non-rechargeable disposable vape designed to deliver a consistent and flavorful mouth-to-lung (MTL) experience. It stands out with its signature crystal-clear outer shell and vibrant inner colors, giving it a modern, high-end look. Engineered with advanced Dual Mesh Coil technology, it provides a smoother draw and more intense flavor compared to standard single-coil disposables. With a massive 1400mAh built-in battery, it is designed to last until the very last drop of its 10mL e-liquid reservoir.\n\nKey Features\nMassive Puff Capacity: Delivers up to 4,000+ puffs, making it ideal for multi-day use without needing a replacement.\n\nDual Mesh Coil (1.1 Ω): Enhances vapor production and ensures flavor consistency from the first puff to the last.\n\nLarge Battery: Equipped with a powerful 1400mAh pre-charged battery (non-rechargeable), providing enough power to outlast many other disposables in its class.\n\nDraw-Activated: No buttons or settings; simply inhale to activate the 'crystal' LED at the bottom and begin vaping.\n\nCompact & Durable: Despite its high capacity, it remains pocket-friendly and features a leak-proof design.",
+    "images": [
+      "images/products/hayati-pro-max/hyati1.jfif",
+      "images/products/hayati-pro-max/hayati2.jfif",
+      "images/products/hayati-pro-max/hayati3.jfif",
+      "images/products/hayati-pro-max/hayati4.jfif",
+      "images/products/hayati-pro-max/hayati5.jfif",
+      "images/products/hayati-pro-max/hayati6.jfif",
+      "images/products/hayati-pro-max/hayati7.jfif",
+      "images/products/hayati-pro-max/hayati8.jfif",
+      "images/products/hayati-pro-max/hayati9.jfif"
+    ],
+    "rating": 4.5,
+    "onSale": true,
+    "isNew": true
+  },
+  {
+    "id": "p21",
+    "name": "Elfbar Ultra 5000",
+    "category": "Disposables",
+    "description": "Elfbar Ultra 5000 is a compact, long-lasting rechargeable disposable designed for clean, satisfying flavor in a pocket‑friendly form. Built with upgraded mesh coil technology and high‑grade wicking, it delivers consistent performance from first puff to last. The ergonomic flagon-style shell sits comfortably in the hand while the draw‑activated system keeps usage simple and reliable.",
+    "images": [
+      "images/products/elfbar5000/elfbar2.jfif"
+    ],
+    "rating": 4.6,
     "onSale": true,
     "isNew": true
   }

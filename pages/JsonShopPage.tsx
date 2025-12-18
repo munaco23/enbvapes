@@ -4,15 +4,35 @@ import { Category, Product } from '../types';
 import ProductCard from '../components/ProductCard';
 
 const JsonShopPage: React.FC = () => {
-  const [activeCategory, setActiveCategory] = useState<Category>('Devices');
+  const [activeCategory, setActiveCategory] = useState<Category>('Disposables');
   const [products, setProducts] = useState<Product[]>(PRODUCTS);
 
   const categories: { label: Category; icon: string }[] = [
-    { label: 'Devices', icon: 'fa-bolt' },
-    { label: 'E-Juices', icon: 'fa-droplet' },
     { label: 'Disposables', icon: 'fa-box' },
+    { label: 'Rolling Paper', icon: 'fa-scroll' },
     { label: 'Accessories', icon: 'fa-wrench' }
   ];
+
+  // Pick category from URL hash if provided (e.g., #/shop?cat=Disposables)
+  useEffect(() => {
+    const valid = categories.map(c => c.label);
+    const applyFromHash = () => {
+      const hash = typeof window !== 'undefined' ? window.location.hash : '';
+      if (hash.startsWith('#/shop')) {
+        const qIndex = hash.indexOf('?');
+        if (qIndex !== -1) {
+          const search = new URLSearchParams(hash.substring(qIndex + 1));
+          const cat = search.get('cat');
+          if (cat && valid.includes(cat as Category)) {
+            setActiveCategory(cat as Category);
+          }
+        }
+      }
+    };
+    applyFromHash();
+    window.addEventListener('hashchange', applyFromHash);
+    return () => window.removeEventListener('hashchange', applyFromHash);
+  }, []);
 
   // Load products from JSON with fallback to constants
   useEffect(() => {
