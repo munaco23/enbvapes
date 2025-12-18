@@ -5,11 +5,11 @@
     "category": "Disposables",
     "description": "Experience the Future of Vaping with the RAZ DC15000 (Boost). Elevate your vaping journey with a powerhouse device built for flavor lovers who want intense performance. Wrapped in premium genuine leather, it feels as luxurious as it performs.\n\nPuff Capacity\n- 15,000 Puffs (Boost Mode): Unleash maximum flavor and massive vapor clouds with enhanced power.\n\nInnovative Mega HD Screen\n- E-Liquid Indicator: Know exactly how much juice is left.\n- Battery Life Monitor: Track your 800mAh battery at a glance.\n- Vaping Animations: High-quality fire and gear animations while you puff.\n\nKey Features\n- Pre-filled E-liquid for long-lasting use\n- Nicotine Strength: 5% (50mg)\n- Advanced Mesh Coil for pure, \"bangin\" flavor\n- USB-C Fast Charging (cable not included)\n- Premium transparent shell with textured leather finish\n\nAvailable Flavors\n- Bangin Sour Berries\n- Miami Mint\n- Blueberry Watermelon\n- Wintergreen",
     "images": [
-      "/images/products/Razz/Razz1.png",
-      "/images/products/Razz/Razz2.png",
-      "/images/products/Razz/Razz3.png",
-      "/images/products/Razz/Razz4.png",
-      "/images/products/Razz/Razz5.png"
+      "images/products/Razz/Razz1.png",
+      "images/products/Razz/Razz2.png",
+      "images/products/Razz/Razz3.png",
+      "images/products/Razz/Razz4.png",
+      "images/products/Razz/Razz5.png"
     ],
     "rating": 4.5,
     "onSale": true
@@ -20,11 +20,11 @@
     "category": "Disposables",
     "description": "Experience the Future of Vaping with the RAZ DC25000 (Normal). Designed for longevity and consistency, this device is perfect for everyday vapers who want smooth, reliable draws for weeks. Wrapped in premium genuine leather for a luxury feel.\n\nPuff Capacity\n- 25,000 Puffs (Normal Mode): Smooth, consistent performance built to last.\n\nInnovative Mega HD Screen\n- E-Liquid Indicator: Stay aware and avoid dry hits.\n- Battery Life Monitor: Track your 800mAh battery level.\n- Vaping Animations: Dynamic fire and gear animations while you puff.\n\nKey Features\n- Pre-filled E-liquid for long-lasting use\n- Nicotine Strength: 5% (50mg)\n- Advanced Mesh Coil for pure, \"bangin\" flavor\n- USB-C Fast Charging (cable not included)\n- Premium transparent shell with textured leather finish\n\nAvailable Flavors\n- Bangin Sour Berries\n- Miami Mint\n- Blueberry Watermelon\n- Wintergreen",
     "images": [
-      "/images/products/Razz/Razz1.png",
-      "/images/products/Razz/Razz2.png",
-      "/images/products/Razz/Razz3.png",
-      "/images/products/Razz/Razz4.png",
-      "/images/products/Razz/Razz5.png"
+      "images/products/Razz/Razz1.png",
+      "images/products/Razz/Razz2.png",
+      "images/products/Razz/Razz3.png",
+      "images/products/Razz/Razz4.png",
+      "images/products/Razz/Razz5.png"
     ],
     "rating": 4.7,
     "onSale": true
@@ -35,13 +35,13 @@
     "category": "Disposables",
     "description": "The Ultimate Vaping Experience: Air Bar AURA XL The Air Bar AURA XL is a next-generation disposable device designed for vapers who prioritize both longevity and cutting-edge technology. Featuring a massive 27mL pre-filled e-liquid capacity and an advanced 800mAh rechargeable battery, this device is built to last through thousands of satisfying draws.\n\nIntelligent Features & Display\nStay informed with the built-in XL HD screen, which provides real-time monitoring of your essential stats:\n\n- E-Liquid Level Indicator: Easily track how much juice remains.\n\n- Battery Monitoring: Know exactly when it's time to recharge via the USB-C port.\n\n- Dynamic Animations: Interactive visuals engage every time you take a puff.\n\nCustomizable Performance\nDual Vaping Modes: Choose between Regular Mode for maximum longevity (up to 25,000 puffs) or switch to a more intense experience.\n\nAdjustable Airflow: Fine-tune your draw from a tight MTL (mouth-to-lung) to a more open, restricted DTL (direct-to-lung) hit.\n\nAdvanced PTC Chip: Integrated technology ensures consistent flavor and performance while preventing overheating.\n\nProduct Specifications:\n- Puff Count: Up to 25,000 Puffs.\n- E-Liquid Capacity: 27mL.\n- Nicotine Strength: 5% (50mg).\n- Coil System: High-performance Mesh Coil for rich, pure flavor.\n- Charging: Type-C Fast Charging.\n\nTop Flavors in this Lineup:\n- Sour Apple Ice: A tart apple blast with a cooling menthol finish.\n- Miami Mint: Crisp, refreshing, and smooth spearmint.\n- Blueberry Ice: Sweet mountain blueberries with a chilled exhale.",
     "images": [
-      "/images/products/Aura/aura2.jpeg",
-      "/images/products/Aura/aura1.jpeg",
-      "/images/products/Aura/aura3.jpeg",
-      "/images/products/Aura/aura4.jpeg",
-      "/images/products/Aura/aura5.jpeg",
-      "/images/products/Aura/aura6.jpeg",
-      "/images/products/Aura/aura7.jpg"
+      "images/products/Aura/aura2.jpeg",
+      "images/products/Aura/aura1.jpeg",
+      "images/products/Aura/aura3.jpeg",
+      "images/products/Aura/aura4.jpeg",
+      "images/products/Aura/aura5.jpeg",
+      "images/products/Aura/aura6.jpeg",
+      "images/products/Aura/aura7.jpg"
     ],
     "rating": 4.8,
     "onSale": true,
