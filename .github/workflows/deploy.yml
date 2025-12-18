@@ -30,6 +30,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Copy static images to dist
+        run: |
+          mkdir -p dist
+          if [ -d "images" ]; then cp -r images dist/images; fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -5,10 +5,10 @@
     "category": "Disposables",
     "description": "The Geek Bar Pulse X is a high-performance, long-lasting disposable vape designed for users who want a balance of massive puff counts and cutting-edge technology. Featuring the world's first 3D curved screen, this device provides a visually stunning interface that displays your battery life, e-liquid levels, and puffing mode in real-time.\n\nKey Features\nDual Vaping Modes:\n\nRegular Mode: Offers up to 25,000 puffs for maximum longevity and consistent flavor.\n\nPulse Mode: Boosts power for more intense flavor and larger clouds, offering up to 15,000 puffs.\n\n3D Curved Display: A vibrant, wrap-around screen with starry constellation animations and clear digital indicators for battery and juice levels.\n\nAdvanced Dual Mesh Coil: Ensures even heating and prevents burnt hits, maintaining flavor quality from the first puff to the last.\n\nHigh Nicotine Strength: Contains 5% (50mg/mL) nicotine for a smooth yet satisfying throat hit.\n\nFast Charging: Equipped with a rechargeable battery (USB-C) to ensure you can use every drop of e-liquid.\n\nAvailable Flavors Shown\nWatermelon Ice: A refreshing blend of sweet watermelon with a crisp menthol finish.\n\nWild Cherry Slush: A nostalgic, icy treat featuring bold, tart cherry notes.\n\nSour Fucking Fab: A complex, tangy fruit medley for those who love a sour kick.",
     "images": [
-      "images/products/geek-bar-x/geekbar1.jfif",
-      "images/products/geek-bar-x/geekbar2.jfif",
-      "images/products/geek-bar-x/geekbar3.jfif",
-      "images/products/geek-bar-x/geekbar4.jfif"
+      "/images/products/geek-bar-x/geekbar1.jfif",
+      "/images/products/geek-bar-x/geekbar2.jfif",
+      "/images/products/geek-bar-x/geekbar3.jfif",
+      "/images/products/geek-bar-x/geekbar4.jfif"
     ],
     "rating": 4.8,
     "onSale": true,
