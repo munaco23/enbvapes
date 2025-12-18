@@ -19,7 +19,8 @@ const JsonShopPage: React.FC = () => {
     let cancelled = false;
     const load = async () => {
       try {
-        const res = await fetch('/sample-product.json', { cache: 'no-store' });
+        const url = `${import.meta.env.BASE_URL}sample-product.json`;
+        const res = await fetch(url, { cache: 'no-store' });
         if (!res.ok) return;
         const data = await res.json();
         const arr = Array.isArray(data) ? data : (Array.isArray((data as any)?.products) ? (data as any).products : []);
