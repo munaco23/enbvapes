@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
         {/* Logo Section */}
         <a href="#/" className="flex items-center space-x-4 cursor-pointer group">
           <img
-            src="images/logo/logo.png"
+            src="/images/logo/logo.png"
             alt="ENBVAPES Logo"
             className="h-12 w-12 object-contain"
           />

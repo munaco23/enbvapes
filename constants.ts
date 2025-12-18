@@ -6,26 +6,26 @@ export const HERO_SLIDES: HeroSlide[] = [
     id: 1,
     title: "VaporVibe Pro Max",
     subtitle: "Experience the next level of flavor and cloud production with our latest hardware.",
-    image: "images/hero-section/slider1.jfif",
+    image: "/images/hero-section/slider1.jfif",
     cta: "Shop Now"
   },
   {
     id: 2,
     title: "Premium E-Liquids",
     subtitle: "Curated collection of the world's most sought-after flavors.",
-    image: "images/hero-section/slide2.jfif",
+    image: "/images/hero-section/slide2.jfif",
     cta: "Explore Flavors"
   },
   {
     id: 3,
     title: "Next-Gen Disposables",
     subtitle: "High puff count, sleek design, and intense nicotine satisfaction.",
-    image: "images/hero-section/slider3.jfif",
+    image: "/images/hero-section/slider3.jfif",
     cta: "Browse All"
   }
 ];
 
-const productNameToImage = (name: string) => `images/products/${name.toLowerCase().replace(/ /g, '-')}.png`;
+const productNameToImage = (name: string) => `/images/products/${name.toLowerCase().replace(/ /g, '-')}.png`;
 
 export const PRODUCTS: Product[] = [
   {
