@@ -1,0 +1,117 @@
+import React, { useState, useEffect } from 'react';
+import { CartProvider } from './components/CartContext';
+import ShopPage from './pages/ShopPage';
+import JsonShopPage from './pages/JsonShopPage';
+import ProductPage from './pages/ProductPage';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import ShopSection from './components/ShopSection';
+import Footer from './components/Footer';
+import About from './components/About';
+import Testimonials from './components/Testimonials';
+import BestSellers from './components/BestSellers';
+import Newsletter from './components/Newsletter';
+import QualityInfo from './components/QualityInfo';
+import SafetyTips from './components/SafetyTips';
+
+
+const ValueProposition: React.FC = () => {
+  const brands = [
+    '/images/our%20brands/airbar.png',
+    '/images/our%20brands/aura.png',
+    '/images/our%20brands/cali.png',
+    '/images/our%20brands/foger.png',
+    '/images/our%20brands/geek.png',
+    '/images/our%20brands/razz.png',
+    '/images/our%20brands/tyson.png'
+  ];
+
+  return (
+    <section className="py-20 bg-white border-y border-neutral-100">
+      <div className="max-w-7xl mx-auto px-6 mb-10 text-center">
+        <h3 className="text-2xl md:text-3xl font-black tracking-tight text-obsidian uppercase">Our Brands</h3>
+        <div className="mx-auto mt-3 h-[2px] w-20 bg-gold"></div>
+        <p className="mt-4 text-[11px] md:text-xs font-bold tracking-[0.35em] uppercase text-neutral-500">Trusted by leading names</p>
+      </div>
+
+      <div className="relative overflow-hidden">
+        {/* Static brands row (auto-scroll removed) */}
+        <div className="flex items-center justify-center flex-wrap gap-10 px-6">
+          {brands.map((src, i) => (
+            <img
+              key={`brand-${i}`}
+              src={src}
+              alt="brand"
+              className="h-16 md:h-20 opacity-60 hover:opacity-100 transition-all duration-300 grayscale hover:grayscale-0 hover:scale-105 object-contain"
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const App: React.FC = () => {
+  const [route, setRoute] = useState(window.location.hash);
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setRoute(window.location.hash);
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    if (!window.location.hash) {
+      window.location.hash = '#/';
+    }
+    setRoute(window.location.hash);
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, [route]);
+
+  const renderPage = () => {
+    switch (route) {
+      case '#/shop':
+        return <JsonShopPage />;
+      default:
+        if (route.startsWith('#/product/')) {
+          return <ProductPage />;
+        }
+        return (
+          <>
+            <Hero />
+            <ValueProposition />
+            <ShopSection />
+            <BestSellers />
+            <About />
+            <Testimonials />
+            <QualityInfo />
+            <SafetyTips />
+            <Newsletter />
+          </>
+        );
+    }
+  };
+
+  return (
+    <CartProvider>
+      <main className="min-h-screen bg-white overflow-x-hidden w-full">
+        <style>{`
+          html, body { overflow-x: hidden; width: 100%; }
+          #root, main { overflow-x: hidden; }
+        `}</style>
+        <Navbar />
+        {renderPage()}
+        <Footer />
+      </main>
+    </CartProvider>
+  );
+};
+
+export default App;
