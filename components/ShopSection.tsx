@@ -151,8 +151,19 @@ const ShopSection: React.FC = () => {
           {/* Products Grid & Slider */}
           <div className="w-full lg:w-3/4">
             <div className="relative">
-              {/* Cards viewport */}
-              <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8">
+              {/* Mobile: horizontal scroll */}
+              <div className="lg:hidden -mx-2 px-2">
+                <div className="grid grid-flow-col auto-cols-[50%] sm:auto-cols-[50%] gap-4 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-2">
+                  {filteredProducts.map((p) => (
+                    <div key={p.id} className="snap-center">
+                      <ProductCard product={p} onClick={() => { window.location.hash = `#/product/${p.id}`; }} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Desktop: grid */}
+              <div className="hidden lg:grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8">
                 {(showAll ? filteredProducts : getVisibleProducts()).map((p) => (
                   <ProductCard key={p.id} product={p} onClick={() => { window.location.hash = `#/product/${p.id}`; }} />
                 ))}
@@ -183,18 +194,7 @@ const ShopSection: React.FC = () => {
             </div>
 
             {/* Dots for mobile/tablet - hide when showing all */}
-            {!showAll && filteredProducts.length > itemsPerView && (
-              <div className="mt-8 flex justify-center gap-2 lg:hidden">
-                {Array.from({ length: Math.ceil(filteredProducts.length / itemsPerView) }).map((_, i) => (
-                  <span
-                    key={i}
-                    className={`h-2 w-2 rounded-full ${
-                      i === Math.floor(currentIndex / itemsPerView) ? 'bg-gold' : 'bg-neutral-200'
-                    }`}
-                  ></span>
-                ))}
-              </div>
-            )}
+            <div className="hidden"></div>
           </div>
         </div>
 
