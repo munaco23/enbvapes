@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo, useRef } from 'react';
 import { PRODUCTS } from '../constants';
 import { Category } from '../types';
 import ProductCard from './ProductCard';
@@ -13,6 +13,7 @@ const ShopSection: React.FC = () => {
   const [itemsPerView, setItemsPerView] = useState(4);
   const [showAll, setShowAll] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const scrollerRef = useRef<HTMLDivElement | null>(null);
 
   const categories: { label: Category; icon: string }[] = [
     { label: 'Disposables', icon: 'fa-box' },
@@ -25,6 +26,10 @@ const ShopSection: React.FC = () => {
   useEffect(() => {
     setCurrentIndex(0);
     setShowAll(false); // Reset to slider view on category change
+    // Reset mobile scroller position to the very start
+    try {
+      if (scrollerRef.current) scrollerRef.current.scrollLeft = 0;
+    } catch {}
   }, [activeCategory]);
 
   // Load products from JSON with fallback to constants
@@ -76,6 +81,13 @@ const ShopSection: React.FC = () => {
   useEffect(() => {
     // Auto-scroll removed: slider advances only via manual controls
   }, [filteredProducts.length, itemsPerView]);
+
+  // Ensure the mobile scroller always starts at the first card when data changes
+  useEffect(() => {
+    try {
+      if (scrollerRef.current) scrollerRef.current.scrollLeft = 0;
+    } catch {}
+  }, [filteredProducts]);
 
   const handlePrev = () => {
     if (!filteredProducts.length) return;
@@ -152,10 +164,14 @@ const ShopSection: React.FC = () => {
           <div className="w-full lg:w-3/4">
             <div className="relative">
               {/* Mobile: horizontal scroll */}
-              <div className="lg:hidden -mx-2 px-2">
-                <div className="grid grid-flow-col auto-cols-[50%] sm:auto-cols-[50%] gap-4 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-2">
+              <div className="lg:hidden">
+                <div
+                  ref={scrollerRef}
+                  className="hide-scrollbar grid grid-flow-col auto-cols-[50%] sm:auto-cols-[50%] gap-4 overflow-x-auto snap-x snap-mandatory pb-2 [scrollbar-width:none] [-ms-overflow-style:none]"
+                  style={{ scrollbarWidth: 'none' as any, msOverflowStyle: 'none' as any }}
+                >
                   {filteredProducts.map((p) => (
-                    <div key={p.id} className="snap-center">
+                    <div key={p.id} className="snap-start">
                       <ProductCard product={p} onClick={() => { window.location.hash = `#/product/${p.id}`; }} />
                     </div>
                   ))}
@@ -218,3 +234,13 @@ const ShopSection: React.FC = () => {
 };
 
 export default ShopSection;
+
+// Hide scrollbar for WebKit inside this module
+// This local style only affects elements with the 'hide-scrollbar' class
+// and avoids changing global styles.
+// eslint-disable-next-line
+const _style = (
+  <style>{`
+    .hide-scrollbar::-webkit-scrollbar { display: none; }
+  `}</style>
+);
