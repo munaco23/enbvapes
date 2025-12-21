@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section id="hero" className="relative h-[80vh] sm:h-[90vh] lg:h-[97vh] w-full overflow-hidden bg-obsidian pt-66 md:pt-94">
+    <section id="hero" className="relative h-[75vh] sm:h-[85vh] lg:h-[92vh] w-full overflow-hidden bg-obsidian pt-66 md:pt-94">
       {/* Slides */}
       {HERO_SLIDES.map((slide, index) => (
         <div
