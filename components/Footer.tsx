@@ -47,9 +47,14 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 md:space-y-6 list-none">
               {['Shipping Policy', 'Privacy Protocol', 'Contact Us'].map(link => {
 
-                const href = link === 'Contact Us' 
-                  ? 'https://wa.me/447933008985'
-                  : '#';
+                let href = '#';
+                if (link === 'Contact Us') {
+                  href = 'https://wa.me/447933008985';
+                } else if (link === 'Shipping Policy') {
+                  href = '#/shipping-policy';
+                } else if (link === 'Privacy Protocol') {
+                  href = '#/privacy-policy';
+                }
 
                 return (
                   <li key={link}>

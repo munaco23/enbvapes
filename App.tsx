@@ -13,6 +13,8 @@ import BestSellers from './components/BestSellers';
 import Shipping from './components/Shipping';
 import QualityInfo from './components/QualityInfo';
 import SafetyTips from './components/SafetyTips';
+import ShippingPolicyPage from './pages/ShippingPolicyPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 
 
 const ValueProposition: React.FC = () => {
@@ -29,8 +31,8 @@ const ValueProposition: React.FC = () => {
   const marquee = [...brands, ...brands];
 
   return (
-    <section className="py-20 bg-white border-y border-neutral-100">
-      <div className="max-w-7xl mx-auto px-6 mb-10 text-center">
+    <section className="py-12 md:py-20 bg-white border-y border-neutral-100">
+      <div className="max-w-7xl mx-auto px-6 mb-6 md:mb-10 text-center">
         <h3 className="text-2xl md:text-3xl font-black tracking-tight text-obsidian uppercase">Our Brands</h3>
         <div className="mx-auto mt-3 h-[2px] w-20 bg-gold"></div>
         <p className="mt-4 text-[11px] md:text-xs font-bold tracking-[0.35em] uppercase text-neutral-500">Trusted by leading names</p>
@@ -102,6 +104,10 @@ const App: React.FC = () => {
     switch (route) {
       case '#/shop':
         return <JsonShopPage />;
+      case '#/shipping-policy':
+        return <ShippingPolicyPage />;
+      case '#/privacy-policy':
+        return <PrivacyPolicyPage />;
       default:
         if (route.startsWith('#/shop')) {
           return <JsonShopPage />;

@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section id="hero" className="relative h-screen w-full overflow-hidden bg-obsidian pt-66 md:pt-94">
+    <section id="hero" className="relative h-[80vh] sm:h-[90vh] lg:h-[97vh] w-full overflow-hidden bg-obsidian pt-66 md:pt-94">
       {/* Slides */}
       {HERO_SLIDES.map((slide, index) => (
         <div
@@ -31,17 +31,24 @@ const Hero: React.FC = () => {
             index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
           }`}
         >
-          {/* Background Image with optimized filter */}
-          <div 
-            className="absolute inset-0 bg-center bg-no-repeat"
-            style={{ 
-              backgroundImage: `url(${slide.image})`,
-              // Smooth zoom only on desktop
-              backgroundSize: isDesktop && index === currentSlide ? '110% auto' : '100% auto',
-              transition: isDesktop ? 'background-size 8000ms ease-out' : 'none'
-            }}
-          >
-          </div>
+          {/* Background Image (desktop) / IMG (mobile) */}
+          {isDesktop ? (
+            <div
+              className="absolute inset-0 bg-center bg-no-repeat will-change-transform"
+              style={{
+                backgroundImage: `url(${slide.image})`,
+                backgroundSize: 'cover',
+                transform: index === currentSlide ? 'scale(1.06)' : 'scale(1)',
+                transition: 'transform 8000ms ease-out'
+              }}
+            />
+          ) : (
+            <img
+              src={slide.image}
+              alt="hero"
+              className="absolute inset-0 w-full h-full object-contain sm:object-cover object-center bg-obsidian"
+            />
+          )}
 
           {/* Content Removed */}
         </div>
